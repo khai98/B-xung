@@ -1,0 +1,20 @@
+var userName = prompt("Who's there?", '');
+if (userName == 'Admin') {
+    //code vào đây
+} else if (userName == null) {
+    alert( 'Canceled' );
+} else {
+    alert( "I don't know you" );
+}
+
+
+
+
+var pass = prompt('Password?', '');
+if (pass == 'TheMaster') {
+    alert( 'Welcome!' );
+} else if (pass == null) {
+    alert( 'Canceled.' );
+} else {
+    alert( 'Wrong password' );
+}
